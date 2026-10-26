@@ -1,0 +1,9 @@
+kernel: 6.8.0-147-generic
+available: reno cubic bbr bhavin
+selected destinations: 3
+accepted completed runs: 23
+cubic: runs=5, samples=50, positive_goodput=50, mean_goodput_Mbps=130.24, cwnd_segments=54..97, srtt_us=31..1437, retrans_increments=0, run_mean_range_Mbps=106.40..164.11
+reno: runs=6, samples=60, positive_goodput=60, mean_goodput_Mbps=134.93, cwnd_segments=90..134, srtt_us=35..18050, retrans_increments=0, run_mean_range_Mbps=125.77..141.00
+bbr: runs=6, samples=60, positive_goodput=60, mean_goodput_Mbps=125.47, cwnd_segments=150..194, srtt_us=28..2500, retrans_increments=0, run_mean_range_Mbps=94.95..136.75
+bhavin: runs=6, samples=60, positive_goodput=60, mean_goodput_Mbps=110.29, cwnd_segments=90..130, srtt_us=40..6573, retrans_increments=0, run_mean_range_Mbps=74.23..150.43
+PASS: BBR and BhavinCC each completed six genuine 10-second public-server transfers with 60 valid TCP_INFO samples.

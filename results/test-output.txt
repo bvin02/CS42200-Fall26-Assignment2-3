@@ -1,0 +1,12 @@
+test_cookie_is_exactly_37_bytes (test_experiment.ProtocolTest.test_cookie_is_exactly_37_bytes) ... ok
+test_length_prefixed_json_round_trip (test_experiment.ProtocolTest.test_length_prefixed_json_round_trip) ... ok
+test_linux_tcp_info_layout (test_experiment.ProtocolTest.test_linux_tcp_info_layout) ... ok
+test_parameter_message (test_experiment.ProtocolTest.test_parameter_message) ... ok
+test_percentile_and_summary (test_experiment.ProtocolTest.test_percentile_and_summary) ... ok
+test_server_file_and_deterministic_port_range (test_experiment.ProtocolTest.test_server_file_and_deterministic_port_range) ... ok
+test_signed_state (test_experiment.ProtocolTest.test_signed_state) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.007s
+
+OK

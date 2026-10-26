@@ -1,0 +1,42 @@
+Native Ubuntu environment verification
+Captured UTC: 2026-10-29T20:33:04Z
+
+Linux cs422-ubuntu 6.8.0-147-generic #147-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 24 11:39:52 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.5 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+
+CONFIG_MODULES=y
+CONFIG_TCP_CONG_ADVANCED=y
+CONFIG_TCP_CONG_BBR=m
+
+Available congestion controls: reno cubic bbr bhavin
+Active modules:
+tcp_bhavin             12288  0
+tcp_bbr                20480  0
+
+filename:       /home/ubuntu/Assignment-2-3/kernel/tcp_bhavin.ko
+license:        GPL
+description:    CS 422 delay- and loss-sensitive TCP congestion control
+author:         Bhavin Gupta
+srcversion:     942507F8AE47054B9B1F004
+depends:        
+name:           tcp_bhavin
+vermagic:       6.8.0-147-generic SMP preempt mod_unload modversions aarch64
+
+TCP_CONGESTION socket selection:
+  cubic => cubic
+  reno => reno
+  bbr => bbr
+  bhavin => bhavin
+
+f29625fc1d043cdb4e48427f5cf325e8c4bc49823f260067005713a526bd13fd  kernel/tcp_bhavin.ko
+aeb60c15887459604a17b3ac52182853aaa15b7e62eb2d1a45313be51d2be768  experiment.py
+2f577a4f741d37fd71ca0a32e3bd6d7a916b6528e99ce08c40a2bc5e26ca9883  results/samples.csv
+0215090fa672b26bd0d7654a1f3c3b8a2b867a94c6c19cb679914257bc813d77  results/runs.json
+a97d34ee71e3b4017234d29af5c7995728c373e3b7fe9f6e339d27a4d324f010  results/report.pdf

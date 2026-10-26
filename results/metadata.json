@@ -1,0 +1,67 @@
+{
+  "started": "2026-10-29T20:27:43.107724+00:00",
+  "platform": "Linux-6.8.0-147-generic-aarch64-with-glibc2.39",
+  "kernel": "6.8.0-147-generic",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "server_source": "inputs/servers_us.txt",
+  "api": "https://iperf3serverlist.net/api/servers",
+  "available_algorithms": [
+    "reno",
+    "cubic",
+    "bbr",
+    "bhavin"
+  ],
+  "requested_algorithms": [
+    "cubic",
+    "reno",
+    "bbr",
+    "bhavin"
+  ],
+  "config": {
+    "action": "collect",
+    "servers": "inputs/servers_us.txt",
+    "output": "results",
+    "fetch": false,
+    "destinations": 3,
+    "duration": 10.0,
+    "interval": 1.0,
+    "repetitions": 2,
+    "algorithms": "cubic,reno,bbr,bhavin",
+    "max_attempts": 10,
+    "timeout": 10.0,
+    "block_size": 131072,
+    "seed": 422
+  },
+  "repository": "https://github.com/bvin02/CS42200-Fall26-Assignment2-3",
+  "tcp_info": {
+    "length": 232,
+    "layout": "Linux include/uapi/linux/tcp.h offsets; microseconds for srtt/rttvar, bytes for cwnd and counters"
+  },
+  "finished": "2026-10-29T20:32:21.131788+00:00",
+  "attempts": 8,
+  "selected_destinations": [
+    {
+      "host": "speedtest.mtl2.ca.leaseweb.net",
+      "port": 5210,
+      "location": null,
+      "country": null,
+      "provider": null
+    },
+    {
+      "host": "dfw.speedtest.is.cc",
+      "port": 5204,
+      "location": null,
+      "country": null,
+      "provider": null
+    },
+    {
+      "host": "speedtest.chi11.us.leaseweb.net",
+      "port": 5207,
+      "location": null,
+      "country": null,
+      "provider": null
+    }
+  ],
+  "completed_destinations": 3,
+  "destination_shortfall": 0
+}

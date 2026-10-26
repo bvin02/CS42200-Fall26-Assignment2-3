@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+tmp/
+kernel/*.o
+kernel/*.ko
+kernel/*.mod*
+kernel/.*.cmd
+kernel/Module.symvers
+kernel/modules.order

@@ -1,0 +1,11 @@
+# North American public iperf3 servers from https://iperf3serverlist.net/
+speedtest.chi11.us.leaseweb.net:5201-5210
+chi.speedtest.clouvider.net:5201-5209
+ash.speedtest.clouvider.net:5200-5209
+speedtest.nyc1.us.leaseweb.net:5201-5210
+speedtest.nocix.net:5201-5205
+dfw.speedtest.is.cc:5203-5210
+speedtest.mtl2.ca.leaseweb.net:5201-5210
+37.19.206.20:5201
+185.93.1.65:5201
+109.61.86.65:5201
